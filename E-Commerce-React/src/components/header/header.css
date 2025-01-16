@@ -2,6 +2,7 @@
   padding: 0%;
   margin: 0%;
   box-sizing: border-box;
+  font-family: "Anton", sans-serif;
 }
 
 header {
@@ -56,12 +57,14 @@ header {
 }
 
 .navbar-logo a {
-  font-size: 20px;
-  font-weight: 600;
-
+  font-size: 15px;
+  font-weight: 900;
   color: #000000;
   text-decoration: none;
+
 }
+
+
 
 .navbar-logo a:hover {
   color: #636262;
@@ -77,7 +80,7 @@ header {
   color: #625f5f;
 }
 
-.navbar-item{ 
+.navbar-item {
   display: flex;
   gap: 40px;
   align-items: center;
@@ -93,13 +96,12 @@ header {
   letter-spacing: 0.04em;
 }
 
-.navbar-item li:hover{
+.navbar-item li:hover {
   background-color: #f0f0f0;
   color: #000000;
 }
 
-
-.search-bar{
+.search-bar {
   width: 460px;
   height: 40px;
   padding: 12px 16px 12px 50px;
@@ -113,8 +115,7 @@ header {
   justify-content: space-between;
 }
 
-
-.search-input input{
+.search-input input {
   flex: 1;
   border: none;
   outline: none;
@@ -122,18 +123,18 @@ header {
   font-size: 14px;
 }
 
-#search-icon-navbar{
+#search-icon-navbar {
   color: #000000;
 }
 
-#search-icon-navbar:hover{
+#search-icon-navbar:hover {
   color: #7b7979;
 }
 
-.cart-user-icon{
+.cart-user-icon {
   gap: 20px;
 }
 
-.cart-user-icon a{
+.cart-user-icon a {
   margin-right: 30px;
 }

@@ -18,7 +18,7 @@ const Header = () => {
       <div className="navbar-flex">
         <div className="navbar-logo">
           <a href="/">
-            <h2>SHOP.CO</h2>
+            <h1>SHOP.CO</h1>
           </a>
         </div>
 
