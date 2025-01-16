@@ -18,7 +18,7 @@ header {
   font-weight: 300;
   line-height: 18.9px;
   text-align: center;
-  height: 38px;
+  height: 40px;
   width: 100%;
   padding: 10px;
 }
@@ -49,7 +49,7 @@ header {
   display: flex;
   align-items: center;
   gap: 40px;
-  height: 65px;
+  height: 95px;
   padding: 1.5vh 8vh;
   justify-content: space-between;
   width: 100%;
@@ -136,5 +136,5 @@ header {
 }
 
 .cart-user-icon a {
-  margin-right: 30px;
+  margin-left: 30px;
 }
